@@ -90,10 +90,10 @@ $menu['DEFAULT'] = array(
                 'label' => 'Notation',
                 'url' => 'admin_note',
             ),
-            'MAILLING' => array(
+/*            'MAILLING' => array(
                 'label' => 'Mailling list',
                 'url' => 'ml',
-            ),
+            ),*/
             'MODELS' => array(
                 'label' => 'Instances de donnée',
                 'url' => 'admin_modeles',

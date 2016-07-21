@@ -1,0 +1,22 @@
+# Informations générales
+infos:
+  name: "Mailling list"
+  author: "Nicolas THING-LEOH <nicolas.thingleoh@gmail.com>"
+  description: "Module pour la mailing list"
+
+# Liste des accès
+acces:
+  ml:
+    index: ADMINISTRATOR
+
+# Menus
+menu:
+    # Menu par défault
+    DEFAULT:
+      ADMIN:
+          sub:
+            MAILLING:
+                label: "Mailling list"
+                url:
+                    action: ml
+                    page: index
